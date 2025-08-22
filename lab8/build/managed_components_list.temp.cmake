@@ -1,0 +1,7 @@
+idf_build_component("/project/lab8/managed_components/display_component" "project_managed_components")
+idf_component_set_property(display_component COMPONENT_VERSION "89970cdf5f04bbfac3fbf58974bfdbf1118a31c1")
+idf_build_component("/project/lab8/managed_components/led_component" "project_managed_components")
+idf_component_set_property(led_component COMPONENT_VERSION "c41ef8a5b0e87f75ce5ea3cce829bc1fb29d90b4")
+idf_build_component("/project/lab8/managed_components/sensor_component" "project_managed_components")
+idf_component_set_property(sensor_component COMPONENT_VERSION "1b5fa9114e52ddc20835d5f5121f434e3ef36447")
+set(managed_components "display_component;led_component;sensor_component")

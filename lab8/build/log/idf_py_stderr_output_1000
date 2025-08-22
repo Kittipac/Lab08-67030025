@@ -1,0 +1,12 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/opt/esp/python_env/idf6.0_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 /project/lab8
+CMake Error at /opt/esp/idf/tools/cmake/component.cmake:156 (message):
+  Directory '/project/lab8/managed_components/sensor_component' does not
+  contain a component.
+Call Stack (most recent call first):
+  /opt/esp/idf/tools/cmake/build.cmake:322 (__component_add)
+  build/managed_components_list.temp.cmake:5 (idf_build_component)
+  /opt/esp/idf/tools/cmake/build.cmake:653 (include)
+  /opt/esp/idf/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:4 (project)
+
+

@@ -1,0 +1,7 @@
+dependencies :
+  sensor_component:
+    git: https://github.com/Kittipac/Sensor.git
+  display_component:
+    git: https://github.com/Ice-Ittikorn/display.git
+  led_component:
+    git: https://github.com/016Rusneeda/LED.git
